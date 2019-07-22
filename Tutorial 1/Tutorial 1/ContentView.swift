@@ -4,10 +4,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("The world on the back of a turtle")
-            .font(.title)
-            // .color(.green) // depricated in favour of foregroundColor
-//            .foregroundColor(.green)
+        VStack(alignment: .leading) {
+            Text("The world on the back of a turtle")
+                .font(.title)
+                .multilineTextAlignment(.leading)
+                .lineLimit(nil)
+            HStack() {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
     }
 }
 
