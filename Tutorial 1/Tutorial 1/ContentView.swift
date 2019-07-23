@@ -4,23 +4,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack() {
-                CircleImage()
-                Text("The world on the back of a turtle")
-                    .font(.title)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(nil)
-            }
-            HStack() {
-                Text("Joshua Tree National Park")
-                    .font(.subheadline)
-                Spacer()
-                Text("California")
-                    .font(.subheadline)
-            }
-        }
-        .padding()
+//        HeaderView(title: "The world on the back of a turtle", location: "Joshua Tree National Park", region: "California")
+        MapView()
     }
 }
 
