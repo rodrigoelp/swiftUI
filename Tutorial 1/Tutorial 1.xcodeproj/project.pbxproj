@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC83AD9822E6965E003BC95A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83AD9722E6965E003BC95A /* CircleImage.swift */; };
 		DC890C1B22E59A4000D0D900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC890C1A22E59A4000D0D900 /* AppDelegate.swift */; };
 		DC890C1D22E59A4000D0D900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC890C1C22E59A4000D0D900 /* SceneDelegate.swift */; };
 		DC890C1F22E59A4000D0D900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC890C1E22E59A4000D0D900 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC83AD9722E6965E003BC95A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DC890C1722E59A4000D0D900 /* Tutorial 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC890C1A22E59A4000D0D900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC890C1C22E59A4000D0D900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				DC890C2522E59A4100D0D900 /* LaunchScreen.storyboard */,
 				DC890C2822E59A4100D0D900 /* Info.plist */,
 				DC890C2222E59A4100D0D900 /* Preview Content */,
+				DC83AD9722E6965E003BC95A /* CircleImage.swift */,
 			);
 			path = "Tutorial 1";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC890C1B22E59A4000D0D900 /* AppDelegate.swift in Sources */,
+				DC83AD9822E6965E003BC95A /* CircleImage.swift in Sources */,
 				DC890C1D22E59A4000D0D900 /* SceneDelegate.swift in Sources */,
 				DC890C1F22E59A4000D0D900 /* ContentView.swift in Sources */,
 			);
