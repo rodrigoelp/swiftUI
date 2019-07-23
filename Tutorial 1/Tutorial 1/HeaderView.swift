@@ -9,13 +9,10 @@ struct HeaderView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            HStack() {
-                CircleImage()
-                Text(title)
-                    .font(.title)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(nil)
-            }
+            Text(title)
+                .font(.title)
+                .multilineTextAlignment(.leading)
+                .lineLimit(nil)
             HStack() {
                 Text(location)
                     .font(.subheadline)
