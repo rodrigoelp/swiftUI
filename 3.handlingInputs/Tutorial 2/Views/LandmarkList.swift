@@ -3,17 +3,17 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State var showFavoriteOnly = false
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $showFavoriteOnly) {
+                Toggle(isOn: $userData.showFavoritesOnly) {
                     Text("Favorites only")
                 }
                 
-                ForEach(landmarkData) { landmark in
-                    if !self.showFavoriteOnly || landmark.isFavorite {
+                ForEach(userData.landmarks) { landmark in
+                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
                         }
