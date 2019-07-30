@@ -20,7 +20,7 @@ struct LandmarkDetail: View {
                 .offset(y: -90)
                 .padding(.bottom, -90)
             
-            HeaderView(title: landmark.name, location: landmark.park, region: landmark.state)
+            HeaderView(landmark: landmark)
             
             Spacer()
         }

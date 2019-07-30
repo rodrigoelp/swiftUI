@@ -3,21 +3,38 @@
 import SwiftUI
 
 struct HeaderView: View {
-    let title: String
-    let location: String
-    let region: String
+    @EnvironmentObject var userData: UserData
+    
+    var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title)
-                .font(.title)
-                .multilineTextAlignment(.leading)
-                .lineLimit(nil)
+            HStack {
+                Text(landmark.name)
+                    .font(.title)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(nil)
+                Button(action: {
+                    self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
+                }) {
+                    if self.userData.landmarks[self.landmarkIndex].isFavorite {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                    } else {
+                        Image(systemName: "star")
+                            .foregroundColor(.gray)
+                    }
+                }
+            }
             HStack() {
-                Text(location)
+                Text(landmark.park)
                     .font(.subheadline)
                 Spacer()
-                Text(region)
+                Text(landmark.state)
                     .font(.subheadline)
             }
         }
@@ -28,7 +45,8 @@ struct HeaderView: View {
 #if DEBUG
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(title: "Something something dark side", location: "Upper deck", region: "Death Star")
+        HeaderView(landmark: landmarkData[0])
+            .environmentObject(UserData())
     }
 }
 #endif

@@ -7,7 +7,7 @@ struct ContentView: View {
     
     var body: some View {
         LandmarkList()
-            .environmentObject(userData)
+     //       .environmentObject(userData) // turns out setting the environment object is a global thing and every new view will inherit it immediately. At least for now.
     }
 }
 
