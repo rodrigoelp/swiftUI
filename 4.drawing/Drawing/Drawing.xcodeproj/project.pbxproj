@@ -15,6 +15,8 @@
 		DC105D8322EFFD6E00AEE830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC105D8122EFFD6E00AEE830 /* LaunchScreen.storyboard */; };
 		DC105D8C22EFFE1300AEE830 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D8B22EFFE1300AEE830 /* BadgeView.swift */; };
 		DC105D8E22EFFE7700AEE830 /* HaxagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D8D22EFFE7700AEE830 /* HaxagonParameters.swift */; };
+		DC105D9022F022E400AEE830 /* BadgeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */; };
+		DC105D9222F0283300AEE830 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D9122F0283300AEE830 /* SymbolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DC105D8422EFFD6E00AEE830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC105D8B22EFFE1300AEE830 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		DC105D8D22EFFE7700AEE830 /* HaxagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxagonParameters.swift; sourceTree = "<group>"; };
+		DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackgroundView.swift; sourceTree = "<group>"; };
+		DC105D9122F0283300AEE830 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				DC105D8B22EFFE1300AEE830 /* BadgeView.swift */,
+				DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */,
+				DC105D9122F0283300AEE830 /* SymbolView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 				DC105D7722EFFD6D00AEE830 /* AppDelegate.swift in Sources */,
 				DC105D8E22EFFE7700AEE830 /* HaxagonParameters.swift in Sources */,
 				DC105D7922EFFD6D00AEE830 /* SceneDelegate.swift in Sources */,
+				DC105D9022F022E400AEE830 /* BadgeBackgroundView.swift in Sources */,
 				DC105D7B22EFFD6D00AEE830 /* ContentView.swift in Sources */,
+				DC105D9222F0283300AEE830 /* SymbolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
