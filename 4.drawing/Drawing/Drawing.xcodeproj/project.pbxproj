@@ -17,6 +17,7 @@
 		DC105D8E22EFFE7700AEE830 /* HaxagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D8D22EFFE7700AEE830 /* HaxagonParameters.swift */; };
 		DC105D9022F022E400AEE830 /* BadgeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */; };
 		DC105D9222F0283300AEE830 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D9122F0283300AEE830 /* SymbolView.swift */; };
+		DC105D9422F029DA00AEE830 /* RotatedSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC105D9322F029DA00AEE830 /* RotatedSymbolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DC105D8D22EFFE7700AEE830 /* HaxagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxagonParameters.swift; sourceTree = "<group>"; };
 		DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackgroundView.swift; sourceTree = "<group>"; };
 		DC105D9122F0283300AEE830 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		DC105D9322F029DA00AEE830 /* RotatedSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedSymbolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				DC105D8B22EFFE1300AEE830 /* BadgeView.swift */,
 				DC105D8F22F022E400AEE830 /* BadgeBackgroundView.swift */,
 				DC105D9122F0283300AEE830 /* SymbolView.swift */,
+				DC105D9322F029DA00AEE830 /* RotatedSymbolView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				DC105D7922EFFD6D00AEE830 /* SceneDelegate.swift in Sources */,
 				DC105D9022F022E400AEE830 /* BadgeBackgroundView.swift in Sources */,
 				DC105D7B22EFFD6D00AEE830 /* ContentView.swift in Sources */,
+				DC105D9422F029DA00AEE830 /* RotatedSymbolView.swift in Sources */,
 				DC105D9222F0283300AEE830 /* SymbolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
